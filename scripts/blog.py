@@ -959,7 +959,7 @@ def build(config: dict[str, typing.Any]) -> int:
 
         rt.append(rtm.seconds)
         cc.append(len(cont))
-        ws.update(Counter(cont.split()))
+        ws.update(Counter(cont.lower().split()))
         tgs.update(Counter(post["keywords"]))
 
         dt, s = rf_format_time(post["created"])
