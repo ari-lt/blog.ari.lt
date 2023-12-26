@@ -128,6 +128,17 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "ariweb-matrix-homeserver": {
+      "title": "ari-web matrix homeserver",
+      "description": "ari-web matrix homeserver launch",
+      "content": "hey\n\ni have set up a matrix homeserver -- <https://ari.lt/lh/matrix.ari.lt>\n\nmatrix is an open source end-to-end encrypted messaging protocol, and today\nive decided to host a server myself -- dendrite\n\nif u want an account feel free to dm [@ari:ari.lt](https://matrix.to/#/@ari:ari.lt)\nor email [ari.web.xyz@gmail.com](mailto:ari.web.xyz@gmail.com)\n\ngood day",
+      "keywords": [
+        "ee2e",
+        "matrix",
+        "open source"
+      ],
+      "created": 1703545050.019135
+    },
     "german-days": {
       "title": "my german days",
       "description": "some stories about my days spent in germany which i feel extremely nostalgic for, no matter how traumatizing it was to be there, i miss it and i'd choose it over lithuania any hour of the day lol",
