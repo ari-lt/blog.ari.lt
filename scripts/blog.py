@@ -1507,6 +1507,11 @@ def main() -> int:
     except KeyError:
         return err(f"command {sys.argv[1]!r} does not exist")
 
+    for file in ".editorconfig", ".clang-format":
+        if os.path.isfile(file):
+            log(f"copying {file!r} to /tmp")
+            shutil.copy(file, f"/tmp/{file}")
+
     log("calling and timing the command")
     if NCI:
         print()
