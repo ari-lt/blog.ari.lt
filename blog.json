@@ -128,6 +128,16 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "ariweb-billing-situation": {
+      "title": "ari-web billing situation",
+      "description": "paypal situation with ari-web things",
+      "content": "hello\n\nmy main method of billing, paypal, is at risk at the moment, i've transferred all the funds i had there ( 155.49 euro ) to a bank account of a person i know, out of which they got 153.49 euro because of fees\n\nnow, you can expect the following :\n\n- ari-web server to be down ( matrix.ari.lt, us.ari.lt )\n- not be able to donate on paypal\n- change of payment methods\n- change of services\n\ngod i hate this so much, i hope i can get this shit sorted before contabo\ndecides to buttfuck me, thank god i decided to pre-pay my contabo by 1 month\nso i have a month of time, but that may not even be enough\n\nfucking hell, imagine waking up to a call from paypal asking u to transfer\nfunds to another account bc it may get closed, and you know it's real because\nyou also got an email and a message in the paypal message centre\n\ni hope this gets sorted soon, i'll try my best",
+      "keywords": [
+        "paypal",
+        "billing"
+      ],
+      "created": 1703678335.400599
+    },
     "set-up-matrix-server-dendrite-linux-nginx": {
       "title": "how to set up a matrix server with dendrite, linux and nginx",
       "description": "tutorial walking through setting up dendrite matrix homeserver with nginx ( together with certbot ) on linux ( in this case, specifically debian 12, but works everywhere ), also covers very annoying errors i've encountered making my own matrix homeserver -- matrix.ari.lt / ari.lt",
