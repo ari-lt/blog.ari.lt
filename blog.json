@@ -128,6 +128,17 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "vim-emacs": {
+      "title": "vim or emacs",
+      "description": "vim or emacs, https://vim-or-emacs.ari.lt/",
+      "content": "i've made this page called vim or emacs at <https://vim-or-emacs.ari.lt/>, feel free to contribute or smt, its maintly just for fun tho :)\n\ncya",
+      "keywords": [
+        "emacs",
+        "vim",
+        "vim or emacs"
+      ],
+      "created": 1704517641.70043
+    },
     "ariweb-billing-situation": {
       "title": "ari-web billing situation",
       "description": "paypal situation with ari-web things",
