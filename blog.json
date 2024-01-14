@@ -128,6 +128,18 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "notice-ariweb-vps-downtime": {
+      "title": "NOTICE !! ari-web vps downtime",
+      "description": "important : ari-web vps downtime due to upgrade",
+      "content": "ari-web vps is currently being upgraded, i have figured out billing and all through card payments and stuff,\nexpect up to 12 hours of downtime",
+      "keywords": [
+        "notice",
+        "importan",
+        "vps",
+        "contabo"
+      ],
+      "created": 1705255735.888354
+    },
     "vim-emacs": {
       "title": "vim or emacs",
       "description": "vim or emacs, https://vim-or-emacs.ari.lt/",
