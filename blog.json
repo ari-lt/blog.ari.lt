@@ -128,6 +128,22 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "matrix-community-wiki-now-hosted-ariweb": {
+      "title": "matrix community wiki now hosted on ari-web",
+      "description": "today's the launch of the matrix community wiki hosted on ari-web : https://matrix.fsky.io/ -- happy editing !",
+      "content": "hey,\n\ntoday i, along with one more person, have set up a matrix\nwiki, i will be contributing there and i suggest you sign\nup to document the matrix chat protocol\n\nyou can find me at <https://matrix.fsky.io/index.php?title=User:Ari> :)\n\nrelevant links :\n\n- <https://matrix.fsky.io/>\n- <https://matrix.org/>\n- <http://spec.matrix.org/latest/>\n\nhappy documenting !",
+      "keywords": [
+        "wiki",
+        "matrix",
+        "decentralization",
+        "p2p protocol",
+        "spec",
+        "matrix protocol",
+        "ee2e",
+        "community wiki"
+      ],
+      "created": 1705337305.350953
+    },
     "notice-ariweb-vps-downtime": {
       "title": "NOTICE !! ari-web vps downtime",
       "description": "important : ari-web vps downtime due to upgrade",
