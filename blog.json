@@ -128,6 +128,17 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "ariweb-moving-selfhosted-services": {
+      "title": "ari-web is moving to self-hosted services",
+      "description": "ari-web is moving to a self-hosted git instance, most likely moving everything towards the direction of self-hosting",
+      "content": "hi\n\nthe more ari-web expands i want to self-host and today i've set up <https://git.ari.lt/>\nwhich is an almost private [forgejo](https://forgejo.org/) instance\n\nyou are, of course, allowed to request an account by [emailing me](mailto:ari.web.xyz@gmail.com)\nand i'll give you an account if i can, but currently there's only 1 extra\nuser, may grow further though\n\nari-web repositories will move there most likely move to that git\ninstance, if not all my projects\n\nnext self-hosting adventure is probably going to be email\n\nexpect downtime\n\nhave a good day",
+      "keywords": [
+        "self hosting",
+        "git",
+        "forgejo"
+      ],
+      "created": 1705426040.580902
+    },
     "matrix-community-wiki-now-hosted-ariweb": {
       "title": "matrix community wiki now hosted on ari-web",
       "description": "today's the launch of the matrix community wiki hosted on ari-web : https://matrix.fsky.io/ -- happy editing !",
