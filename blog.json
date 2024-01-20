@@ -231,14 +231,14 @@
     "ariweb-matrix-homeserver": {
       "title": "ari-web matrix homeserver",
       "description": "ari-web matrix homeserver launch",
-      "content": "hey\n\ni have set up a matrix homeserver -- <https://ari.lt/lh/matrix.ari.lt>\n\nmatrix is an open source end-to-end encrypted messaging protocol, and today\nive decided to host a server myself -- dendrite\n\nif u want an account feel free to dm [@ari:ari.lt](https://matrix.to/#/@ari:ari.lt)\nor email [ari.web.xyz@gmail.com](mailto:ari.web.xyz@gmail.com)\nyou're also free to join [#root:ari.lt](https://matrix.to/#/#root:ari.lt)\nto casually talk or request for an account\n\ngood day",
+      "content": "hey\n\ni have set up a matrix homeserver -- <https://ari.lt/lh/matrix.ari.lt>\n\nmatrix is an open source end-to-end encrypted messaging protocol, and today\nive decided to host a server myself -- dendrite\n\nif u want an account feel free to dm [@ari:ari.lt](https://matrix.to/#/@ari:ari.lt)\nor email [ari.web.xyz@gmail.com](mailto:ari.web.xyz@gmail.com)\nyou're also free to join [#root:ari.lt](https://matrix.to/#/#root:ari.lt)\nto casually talk or request for an account\n\n**edit** check out <https://ari.lt/matrix> for more information on this\n\ngood day",
       "keywords": [
         "ee2e",
         "matrix",
         "open source"
       ],
       "created": 1703545050.019135,
-      "edited": 1703606904.216306
+      "edited": 1705784350.773774
     },
     "german-days": {
       "title": "my german days",
