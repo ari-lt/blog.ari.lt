@@ -442,9 +442,11 @@ def ctimer() -> float:
 def log(msg: str, clr: str = LOG_CLR) -> int:
     if NCI:
         print(
-            f"{datetime.datetime.now()} | {msg}"
-            if NOCLR
-            else f"{clr}{datetime.datetime.now()} | {msg}\033[0m",
+            (
+                f"{datetime.datetime.now()} | {msg}"
+                if NOCLR
+                else f"{clr}{datetime.datetime.now()} | {msg}\033[0m"
+            ),
             file=sys.stderr,
         )
 
@@ -960,7 +962,7 @@ def build(config: dict[str, typing.Any]) -> int:
         rt.append(rtm.seconds)
         cc.append(len(cont))
         ws.update(Counter(cont.lower().split()))
-        tgs.update(Counter(post["keywords"]))
+        tgs.update(Counter(list(map(str.lower, post["keywords"]))))
 
         dt, s = rf_format_time(post["created"])
 
