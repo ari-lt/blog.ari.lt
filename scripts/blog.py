@@ -1313,6 +1313,7 @@ def rss(config: dict[str, typing.Any]) -> int:
             post["created"]
         ).strftime(ftime)
         etree.SubElement(item, "guid").text = link
+        etree.SubElement(item, "author").text = f"{config['email']} ({config['author']})"
 
     etree.ElementTree(root).write(
         config["rss-file"], encoding="UTF-8", xml_declaration=True
