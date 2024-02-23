@@ -63,7 +63,7 @@
     ]
   },
   "author": "Ari Archer",
-  "email": "ari.web.xyz@gmail.com",
+  "email": "ari@ari.lt",
   "locale": "en_GB",
   "recents": 14,
   "indent": 2,
@@ -128,6 +128,16 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "new-email-ariarilt": {
+      "title": "new email : ari@ari.lt",
+      "description": "ari@ari.lt - new email",
+      "content": "migrating emails from <ari.web.xyz@gmail.com> to <ari@ari.lt>, just letting people know",
+      "keywords": [
+        "ari.web.xyz@gmail.com",
+        "ari@ari.lt"
+      ],
+      "created": 1708711457.629806
+    },
     "butthurt-form": {
       "title": "butthurt form",
       "description": "the butthurt form of ari.lt on pad.ari.lt",
