@@ -858,7 +858,7 @@ created : {format_time(post["created"])}"""
 
 
 @cmds.new
-def ed(config: dict[str, typing.Any]) -> int:
+def ed(config: dict[str, typing.Any], major: bool = True) -> int:
     """edit posts"""
 
     fields: list[str] = select_multi(tuple(ecmds.commands.keys()))
@@ -882,9 +882,16 @@ def ed(config: dict[str, typing.Any]) -> int:
             if code is not OK:
                 return code
 
-            post["edited"] = datetime.datetime.utcnow().timestamp()
+            if major:
+                post["edited"] = datetime.datetime.utcnow().timestamp()
 
     return OK
+
+
+@cmds.new
+def med(config: dict[str, typing.Any]) -> int:
+    """minor edit posts"""
+    return ed(config=config, major=False)  # type: ignore
 
 
 @cmds.new
