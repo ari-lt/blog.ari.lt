@@ -128,6 +128,25 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "self-hosting-progress-ariweb-fedi-akkoma-instance": {
+      "title": "self hosting progress & ari-web fedi ( akkoma instance )",
+      "description": "ari-web self-hosting progress, server upgrade notice, and invitation to sign up for email, matrix, and / or akkoma ( fediverse instance )",
+      "content": "hello\n\ncurrently the self-hosting roadmap is going slow, i have migrated email ( open reg at <https://mail.ari.lt/signup> ), matrix ( semi-open reg at <https://ari.lt/matrix> ), and also begun hosting fedi with [zayd](https://wanderer.envs.net/) on <https://ak.ari.lt/> ( you can sign up, although an email & review is required :) )\n\nsoon, i'll begin migration to self-hosted git from github, i don't know why i'm delaying this honestly, although i think that'll break stuff in regards to website hosting,, a 'netlify at home' sorta type of project is upcoming but i already have a lot lined up, i keep trying to prioritize it, but i always end up laying it off and then not doing anything about it lmao, although my main priority this month or so will be school - upcoming exams and projects mainly\n\nalso, a server upgrade is around the corner most likely, unsure if this month or next month, i'm having anxiety about everything this month so it's just a mess lol, anyway, server's running out of memory mainly, so guess we'll see how it all goes lmao, i'm tired\n\nanyway, tldr, guess we'll see how my self-hosting journey goes, and i invite you to sign up for the ari-web fediverse instance at <https://ak.ari.lt/> :)\n\ncya",
+      "keywords": [
+        "matrix",
+        "fedi",
+        "forgejo",
+        "fediverse",
+        "git",
+        "server",
+        "email",
+        "self-hosting",
+        "self-hosted",
+        "invite",
+        "hosting"
+      ],
+      "created": 1712871521.794513
+    },
     "vegan-dough-balls-sauce": {
       "title": "vegan dough balls in sauce",
       "description": "my quick vegan dough balls in tomato sauce :)",
