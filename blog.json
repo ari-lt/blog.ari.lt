@@ -128,6 +128,29 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "vegan-tom-yum-soup-tofu": {
+      "title": "vegan tom yum soup with tofu",
+      "description": "A vegan twist on the classic Tom Yum soup from Thailand, known for its distinct hot and sour flavours with fragrant spices and herbs! A full recipe with nutritional facts and serving recommendations, as well as a recipe for vegan Tom Yum paste. Bon Apetit!",
+      "content": "Dinner time! Today I made vegan Tom Yum soup with Tofu, served with rice and green tea :)\n\nHere's the recipe:\n\n-   1 tbsp olive oil\n-   1 onion, chopped\n-   3 cloves garlic, minced\n-   2 tbsp vegan Tom Yum paste\n    -   If you don't have any, check <:#Tom Yum paste>\n-   2 cups of cabbage, chopped\n-   1 carrot, grated\n-   1 head of broccoli, chopped\n-   250 g medium-firm tofu, cubed\n-   2 cups of crushed tomatoes\n-   2 tbsp dark soy sauce\n-   1/2 tsp dried basil\n-   1/2 tsp red dried paprika powder\n-   Salt and pepper to taste\n-   4 cups water\n-   1 cup rice (optional)\n\n## Cooking time\n\n-   Total time: 45-65 minutes\n    -   Preparation time: 15-25 minutes\n    -   Cooking time: 30-40 minutes\n\n## Tom Yum paste\n\nIf you don't have Tom Yum paste, you can easily make it by mixing:\n\n-   8 g granulated white sugar\n-   6 g salt\n-   5 g vegetable oil\n-   10 g lemon zest\n-   4 g chilli powder\n-   2 g citric acid\n-   1.5 g ginger root\n\nOf course you may get a different result depending on your ingredients, but this is not a bad alternative if you don't have Tom Yum paste.\n\n## Instructions\n\n1. Heat the vegetable oil in a large pot over medium to medium high heat.\n2. Add the chopped onion and minced garlic, cook until they are soft and fragrant.\n3. Stir in the vegan Tom Yum paste and continue to cook for about a minute.\n4. Add the chopped cabbage, carrot, and broccoli to the pot. Combine them by stirring.\n5. Add the tofu cubes to the pot. Cook for a few minutes until the tofu is heated through.\n6. Pour in the crushed canned tomatoes, the soy sauce, and water.\n7. Add in the died basil and paprika.\n8. Season with salt and pepper.\n9. Bring the soup to simmer.\n10. Cover the pot and let simmer for about 20-30 minutes, until the veggies are soft.\n11. While the soup is simmering, cook your rice according to package directions.\n12. Taste the soup and adjust the seasoning if needed.\n13. Serve your soup hot with a side of rice and (optionally) green tea.\n\nEnjoy! This makes 4-5 servings easily.\n\n## Nutrition\n\nThis is just an estimate, do not take it as final and fact - yours may (and most likely will) vary depending on the ingredients used,\nand I am not a dietician. This estimate assumes that the recipe makes 4 servings.\n\n% are in DV (Daily Value). DV is the recommended amount of something an *average person* should have in 24 hours in a recommended 2000kcal diet.\n\n-   Calories: 400kcal (20%)\n-   Total Fat: 12g (18%)\n    -   Saturated Fat: 2g (10%)\n-   Cholesterol: 0mg (0%)\n-   Sodium: 825mg (34%)\n-   Total Carbohydrate: 58g (19%)\n    -   Dietary Fibre: 11g (44%)\n    -   Total Sugars: 10g\n        -   Includes 2g Added Sugars (4%)\n-   Protein: 18g\n-   Vitamin D: 0mcg (0%)\n-   Calcium: 180mg (14%)\n-   Iron: 4mg (22%)\n-   Potassium: 900mg (19%)",
+      "keywords": [
+        "serving",
+        "tomato",
+        "tom yum",
+        "thai soup",
+        "vegan thai",
+        "dinner",
+        "nutrition",
+        "soup",
+        "tofu",
+        "thai",
+        "fedi",
+        "tom yum soup",
+        "tofu soup",
+        "open source cooking",
+        "vegan"
+      ],
+      "created": 1713625937.819528
+    },
     "self-hosting-progress-ariweb-fedi-akkoma-instance": {
       "title": "self hosting progress & ari-web fedi ( akkoma instance )",
       "description": "ari-web self-hosting progress, server upgrade notice, and invitation to sign up for email, matrix, and / or akkoma ( fediverse instance )",
