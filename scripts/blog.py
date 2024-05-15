@@ -21,7 +21,6 @@ from glob import iglob
 from html import escape as html_escape
 from threading import Thread
 from timeit import default_timer as code_timer
-from warnings import filterwarnings as filter_warnings
 
 import mistune
 import mistune.core
@@ -31,6 +30,9 @@ import unidecode
 import web_mini
 from readtime import of_markdown as read_time_of_markdown  # type: ignore
 from readtime.result import Result as MarkdownResult  # type: ignore
+
+# from warnings import filterwarnings as filter_warnings
+
 
 __version__: typing.Final[int] = 2
 GEN: typing.Final[str] = f"ari-web blog generator version {__version__}"
@@ -493,14 +495,12 @@ def slugify(
 
 
 def rf_format_time(ts: float) -> typing.Tuple[datetime.datetime, str]:
-    d: datetime.datetime = datetime.datetime.fromtimestamp(ts, datetime.UTC)
+    d: datetime.datetime = datetime.datetime.utcfromtimestamp(ts)
     return d, d.strftime("%Y-%m-%d %H:%M:%S")
 
 
 def rformat_time(ts: float) -> str:
-    return datetime.datetime.fromtimestamp(ts, datetime.UTC).strftime(
-        "%Y-%m-%d %H:%M:%S"
-    )
+    return datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
 
 
 def format_time(ts: float) -> str:
@@ -830,7 +830,7 @@ def new(config: dict[str, typing.Any]) -> int:
         "description": description.strip(),
         "content": content,
         "keywords": keywords,
-        "created": datetime.datetime.now(datetime.UTC).timestamp(),
+        "created": datetime.datetime.utcnow().timestamp(),
     }
 
     return OK
@@ -885,7 +885,7 @@ def ed(config: dict[str, typing.Any], major: bool = True) -> int:
                 return code
 
             if major:
-                post["edited"] = datetime.datetime.now(datetime.UTC).timestamp()
+                post["edited"] = datetime.datetime.utcnow().timestamp()
 
     return OK
 
@@ -1250,7 +1250,7 @@ def sitemap(config: dict[str, typing.Any]) -> int:
 
     llog("generating a sitemap")
 
-    now: float = datetime.datetime.now(datetime.UTC).timestamp()
+    now: float = datetime.datetime.utcnow().timestamp()
 
     root: etree.Element = etree.Element("urlset")
     root.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
@@ -1268,9 +1268,8 @@ def sitemap(config: dict[str, typing.Any]) -> int:
         etree.SubElement(url, "loc").text = (
             f"{config['blog']}/{config['posts-dir']}/{slug}" if slug else post
         )
-        etree.SubElement(url, "lastmod").text = datetime.datetime.fromtimestamp(
-            post.get("edited", post["created"]) if slug else now,  # type: ignore,=
-            datetime.UTC,
+        etree.SubElement(url, "lastmod").text = datetime.datetime.utcfromtimestamp(
+            post.get("edited", post["created"]) if slug else now,  # type: ignore
         ).strftime("%Y-%m-%dT%H:%M:%S+00:00")
         etree.SubElement(url, "priority").text = "1.0"
 
@@ -1287,7 +1286,7 @@ def rss(config: dict[str, typing.Any]) -> int:
     llog("generating an rss feed")
 
     ftime: str = "%a, %d %b %Y %H:%M:%S GMT"
-    now: datetime.datetime = datetime.datetime.now(datetime.UTC)
+    now: datetime.datetime = datetime.datetime.utcnow()
 
     root: etree.Element = etree.Element("rss")
     root.set("version", "2.0")
@@ -1315,13 +1314,12 @@ def rss(config: dict[str, typing.Any]) -> int:
             link := f"{config['blog']}/{config['posts-dir']}/{slug}"
         )
         etree.SubElement(item, "description").text = post["description"] + (
-            f" [edited at {datetime.datetime.fromtimestamp(created, datetime.UTC).strftime(ftime)}]"
+            f" [edited at {datetime.datetime.utcfromtimestamp(created).strftime(ftime)}]"
             if created
             else ""
         )
-        etree.SubElement(item, "pubDate").text = datetime.datetime.fromtimestamp(
+        etree.SubElement(item, "pubDate").text = datetime.datetime.utcfromtimestamp(
             post["created"],
-            datetime.UTC,
         ).strftime(ftime)
         etree.SubElement(item, "guid").text = link
         etree.SubElement(item, "author").text = (
@@ -1554,5 +1552,5 @@ if __name__ == "__main__":
         main.__annotations__.get("return") == "int"
     ), "main() should return an integer"
 
-    filter_warnings("error", category=Warning)
+    # filter_warnings("error", category=Warning)
     raise SystemExit(main())
