@@ -46,7 +46,7 @@
   "website": "https://ari.lt",
   "blog": "https://blog.ari.lt",
   "source": "/git",
-  "visitor-count": "/visit",
+  "visitor-count": "https://ari.lt/counter.svg?fill=%23f9f6e8",
   "comment": "/c",
   "theme": {
     "primary": "#262220",
