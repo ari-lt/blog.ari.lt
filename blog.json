@@ -128,6 +128,16 @@
   "top-words": 64,
   "top-tags": 64,
   "posts": {
+    "1-million": {
+      "title": "1 million !",
+      "description": "ari-web just hit 1000000 visits",
+      "content": "HEYY !!!\n\nARI-WEB HAS OFFICIALLY PROCESSED ONE MILLION REQUESTS WHICH IS HELLA EPIC\n\nmy friend, who goes by [LDA](https://freetards.xyz/) online got the 1000000 th request and omg thats so fucking satisfying\nand epic : <https://files.ari.lt/files/one-million.png>\n\nHUGE thanks to all of you for giving me the numbers and a platform :D",
+      "keywords": [
+        "achievement",
+        "one million"
+      ],
+      "created": 1718264728.034376
+    },
     "youtube-their-idiotic-stunts-forced-ads": {
       "title": "youtube and their idiotic stunts : forced ads",
       "description": "Critique of recent Google experiments with ads: forcing them down your throat server-side so you \"couldn't\" block them!",
